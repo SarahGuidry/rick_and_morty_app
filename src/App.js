@@ -19,6 +19,7 @@ const App = (props) =>{
       .then(res =>{
         setCharacters(res.data)
         push(characters)
+        console.log(characters)
       })
       .catch(err =>{
         console.log(err)
